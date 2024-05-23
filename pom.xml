@@ -400,7 +400,7 @@
                             </platforms>
                         </from>
                         <to>
-                            <image>omscoping:latest</image>
+                            <image>swr.ap-southeast-3.myhuaweicloud.com/orange-money/omscoping:latest</image>
                         </to>
                         <container>
                             <entrypoint>
