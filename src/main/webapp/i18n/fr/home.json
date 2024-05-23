@@ -1,19 +1,19 @@
 {
   "home": {
-    "title": "Bienvenue, Java Hipster !",
+    "title": "Bienvenue, Orange Money Huawei Scoping  !",
     "subtitle": "Ceci est votre page d'accueil",
     "logged": {
       "message": "Vous êtes connecté en tant que \"{ username }\"."
     },
-    "question": "Si vous avez des questions à propos de JHipster :",
+    "question": "Si vous avez des questions à propos de Orange Money :",
     "link": {
-      "homepage": "Page d'accueil de JHipster",
-      "stackoverflow": "JHipster sur Stack Overflow",
-      "bugtracker": "JHipster bug tracker",
-      "chat": "JHipster public chat room",
-      "follow": "Suivez {'@'}jhipster sur Twitter"
+      "homepage": "Page d'accueil de Orange Money",
+      "stackoverflow": "Orange Money sur Stack Overflow",
+      "bugtracker": "Orange Money bug tracker",
+      "chat": "Orange Money public chat room",
+      "follow": "Suivez {'@'}Orange Money sur Twitter"
     },
-    "like": "Si vous aimez JHipster, donnez nous une étoile sur",
+    "like": "Si vous aimez Orange Money, donnez nous une étoile sur",
     "github": "GitHub "
   }
 }
