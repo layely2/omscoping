@@ -4,9 +4,39 @@
       <span class="hipster img-fluid rounded"></span>
     </div>
     <div class="col-md-9">
-      <h1 class="display-4" v-text="t$('home.title')"></h1>
-      <p class="lead" v-text="t$('home.subtitle')"></p>
-
+      <h4 class="display-5" v-text="t$('home.title')"></h4>
+      <!--p class="lead" v-text="t$('home.subtitle')"></p-->
+      <div>
+        <form>
+          <span class="col-md-12">
+            <span class="col-md-3"> <h5>Money Transfer</h5></span>
+            <span class="col-md-3">MSISDN:</span>
+            <span class="col-md-3">
+              <input type="text" class="col-md-3" />
+            </span>
+            <span class="col-md-1">
+              <input type="submit" value="Send" disabled />
+            </span>
+          </span>
+        </form>
+        <br />
+        <br />
+      </div>
+      <div>
+        <div>
+          <img class="col-md-6" src="../../../../resources/IMG-20240522-WA0030.jpeg" />
+          <img class="col-md-6" src="../../../../resources/IMG-20240522-WA0032.jpeg" />
+        </div>
+        <br />
+        <div>
+          <img class="col-md-6" src="../../../../resources/IMG-20240522-WA0034.jpeg" />
+          <img class="col-md-6" src="../../../../resources/IMG-20240522-WA0038.jpeg" />
+        </div>
+        <br />
+        <div>
+          <img class="col-md-12" src="../../../../resources/IMG-20240522-WA0042.jpg" />
+        </div>
+      </div>
       <div>
         <div class="alert alert-success" v-if="authenticated">
           <span v-if="username" v-text="t$('home.logged.message', { username: username })"></span>
@@ -26,39 +56,24 @@
       <p v-text="t$('home.question')"></p>
 
       <ul>
-        <li><a href="https://www.jhipster.tech/" target="_blank" rel="noopener noreferrer" v-text="t$('home.link.homepage')"></a></li>
+        <li><a href="https://www.orange.fr/" target="_blank" rel="noopener noreferrer" v-text="t$('home.link.homepage')"></a></li>
         <li>
-          <a
-            href="http://stackoverflow.com/tags/jhipster/info"
-            target="_blank"
-            rel="noopener noreferrer"
-            v-text="t$('home.link.stackoverflow')"
-          ></a>
+          <a href="https://www.orange.fr/" target="_blank" rel="noopener noreferrer" v-text="t$('home.link.stackoverflow')"></a>
         </li>
         <li>
-          <a
-            href="https://github.com/jhipster/generator-jhipster/issues?state=open"
-            target="_blank"
-            rel="noopener noreferrer"
-            v-text="t$('home.link.bugtracker')"
-          ></a>
+          <a href="https://www.orange.fr/" target="_blank" rel="noopener noreferrer" v-text="t$('home.link.bugtracker')"></a>
         </li>
         <li>
-          <a
-            href="https://gitter.im/jhipster/generator-jhipster"
-            target="_blank"
-            rel="noopener noreferrer"
-            v-text="t$('home.link.chat')"
-          ></a>
+          <a href="https://www.orange.fr/" target="_blank" rel="noopener noreferrer" v-text="t$('home.link.chat')"></a>
         </li>
         <li>
-          <a href="https://twitter.com/jhipster" target="_blank" rel="noopener noreferrer" v-text="t$('home.link.follow')"></a>
+          <a href="https://www.orange.fr/" target="_blank" rel="noopener noreferrer" v-text="t$('home.link.follow')"></a>
         </li>
       </ul>
 
       <p>
         <span v-text="t$('home.like')"></span>
-        <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer" v-text="t$('home.github')"></a>!
+        <a href="https://www.orange.fr/" target="_blank" rel="noopener noreferrer" v-text="t$('home.github')"></a>!
       </p>
     </div>
   </div>
