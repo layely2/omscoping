@@ -14,6 +14,10 @@
             <span class="col-md-3">
               <input type="text" class="col-md-3" />
             </span>
+            <span class="col-md-3">Amount:</span>
+            <span class="col-md-3">
+              <input type="text" class="col-md-3" />
+            </span>
             <span class="col-md-1">
               <input type="submit" value="Send" disabled />
             </span>
@@ -23,6 +27,11 @@
         <br />
       </div>
       <div>
+        <div>
+          <img class="col-md-6" src="../../../../resources/IMG-20240524-WA0013.jpeg" />
+          <img class="col-md-6" src="../../../../resources/IMG-20240524-WA0015.jpeg" />
+        </div>
+        <br />
         <div>
           <img class="col-md-6" src="../../../../resources/IMG-20240522-WA0030.jpeg" />
           <img class="col-md-6" src="../../../../resources/IMG-20240522-WA0032.jpeg" />
